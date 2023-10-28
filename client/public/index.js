@@ -35,10 +35,11 @@ async function getStaticContent(page) {
 const path = window.location.pathname.substr(1);
 if (path === 'create' || path === 'posts' || path === 'delete' || path.indexOf("edit") >= 0) {
     if (path.indexOf("edit") >= 0) {
-        navigateTo(localStorage.getItem("pathEdit") ? localStorage.getItem("pathEdit") : path)
+        navigateTo(window.location.href.split("/")[window.location.href.split("/").length-1])
     } else {
         navigateTo(path);
     }
+    // navigateTo(path)
 } else {
     navigateTo('posts');
 }

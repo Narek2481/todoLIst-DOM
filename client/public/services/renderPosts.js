@@ -13,13 +13,13 @@ async function createPostsForDom(posts, root, users) {
             html += `
                     <div class="p-2 mt-1 ">
                         <div class="postContainer ">
-                            <div>
+                            <div class="postsData">
                                 ${post.id}
                             </div>
-                            <div>
+                            <div class="postsData">
                                 ${user ? user.username : "user not found "}
                             </div>
-                            <div class="''">
+                            <div class="postsData">
                                 ${post.title}
                             </div>
                             <div class="flex gap-8 jc-center">
@@ -44,7 +44,7 @@ async function createPostsForDom(posts, root, users) {
                             <div class="''">
                                 ${post.title}
                             </div>
-                            <div class="flex gap-8 jc-center">
+                            <div class="flex gap-8 jc-center delEditContainer">
                                 <img src="../images/edit.png" alt="${post.id}" class="editPost"/>
                                 <img src="../images/deletePost.png" alt="${post.id}" class="deletePost"/>
                             </div>
