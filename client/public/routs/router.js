@@ -54,7 +54,6 @@ export async function navigateTo(page, userId) {
                     elem.addEventListener("click", () => {
                         navigateTo("edit?id=" + id, id)
                     })
-                    console.log(elem.parentElement.parentElement.children[0]);
                     elem.parentElement.parentElement.children[0].addEventListener("click", () => {
                         navigateTo("edit?id=" + id, id)
                     })
