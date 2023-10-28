@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <main>
+        <header class="">
+            <div class="logo flex jc-start gap-8 ">
+                <div class="flex flex-center-row  p-1">
+                    <img src="./images/logo.png" alt="" class="logoImage">
+                    Hope Ui
+                </div>
+
+            </div>
+            <div class=" flex jc-start pl-1 gap-20">
+                <div class=" flex flex-center-row">
+                    <img src="./images/arrow.png" alt="">
+                </div>
+                <div class="flex  flex-center-row searchContainer">
+                    <input type="text" class="search" placeholder="Search…">
+                    <img src="./images/Search.png" alt="" class="searchLogo">
+                </div>
+            </div>
+            <div class="userData flex flex-center-row gap-20">
+                <div>
+                    <img src="./images/britan.png" alt="">
+                </div>
+                <div>
+                    <img src="./images/Notification.png" alt="">
+                </div>
+                <div>
+                    <img src="./images/Message.png" alt="">
+                </div>
+                <div>
+                    <img src="./images/person.png" alt="">
+                </div>
+                <div class="person">
+                    Austin Robertson <br>
+                    <span>Marketing Administrator</span>
+                </div>
+            </div>
+        </header>
+        <section class="flex ">
+            <ul class="rootNav nav"></ul>
+            <div class="getInfo">
+                <div class="getInfoHeader ">
+                    <div class="flex between">
+                        <div>
+                            <h1>Hello Devs !</h1>
+                            <p>We are on a mission to help like you beautiful projects</p>
+                        </div>
+
+                        <div>
+                            <button class="flex gap-8   align-center getInfoHeaderBtn ">
+                                <img src="./images/voice.png" alt="">
+                                Announcments
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="root ">
+                    <div class="flex between align-center" id="titleRoot">
+                        <h2>Posts</h2>
+                        <button class="createButton">Create</button>
+                    </div>
+                    <div class="p-2 bg-dark mt-1" id="titlePosts">
+                        <div class="postContainer text-center ">
+                            <div>
+                                #
+                            </div>
+                            <div>
+                                User Name
+                            </div>
+                            <div>
+                                Title
+                            </div>
+                            <div class="text-right">
+                                Actions
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex jc-end ">
+            <div class="flex between footerContainer">
+                <div class="flex">
+                    <div>Privacy Policy</div>
+                    <div>Terms of Use</div>
+                </div>
+                <div class="flex">
+                    © 2021 Hope UI, Made with ❤ by IQONIC Design.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>

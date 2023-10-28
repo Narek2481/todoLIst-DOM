@@ -1,0 +1,171 @@
+[
+    {
+        "group": "Home",
+        "pages": [
+            {
+                "title": "Dashboard",
+                "path": "dashboard",
+                "icon": "",
+                "children": []
+            },
+            {
+                "title": "Menu Style",
+                "path": "style-menu",
+                "icon": "",
+                "children": [
+                    {
+                        "title": " Sub Menu Style",
+                        "path": "sub-style-menu",
+                        "icon": "",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group": "Pages",
+        "pages": [
+            {
+                "title": "Example",
+                "path": "example",
+                "icon": "",
+                "children": [
+                    {
+                        "title": "Sub Example",
+                        "path": "sub-example",
+                        "icone": "",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "title": "Widgets",
+                "path": "widgets",
+                "icon": "",
+                "children": [
+                    {
+                        "title": "Sub Widgets",
+                        "path": "sub-widgets",
+                        "icon": "",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "title": "Categories",
+                "path": "categories",
+                "icon": "",
+                "children": [
+                    {
+                        "title": "Posts",
+                        "path": "posts",
+                        "icon": "",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "title": "Authentication",
+                "path": "authentication",
+                "icon": "",
+                "children": [
+                    {
+                        "title": "Sub Authentication",
+                        "path": "sub-authentication",
+                        "icon": "",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "title": "Users",
+                "path": "users",
+                "icon": "",
+                "children": [
+                    {
+                        "title": "Sub Users",
+                        "path": "sub-users",
+                        "icon": "",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "title": "Error 404",
+                "path": "error404",
+                "icon": "",
+                "children": []
+            },
+            {
+                "title": "Error 505",
+                "path": "error505",
+                "icon": "",
+                "children": []
+            },
+            {
+                "title": "Maintence",
+                "path": "maintence",
+                "icon": "",
+                "children": []
+            }
+        ]
+    },
+    {
+        "group": "Elements",
+        "pages": [
+            {
+                "title": "Components",
+                "path": "components",
+                "icon": "",
+                "children": [
+                    {
+                        "title": "Sub Components",
+                        "path": "sub-components",
+                        "icon": "",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "title": "Form",
+                "path": "form",
+                "icon": "",
+                "children": [
+                    {
+                        "title": "Sub Form",
+                        "path": "sub-form",
+                        "icon": "",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "title": "Table",
+                "path": "table",
+                "icon": "",
+                "children": [
+                    {
+                        "title": "Sub Table",
+                        "path": "sub-table",
+                        "icon": "",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "title": "Icons",
+                "path": "icons",
+                "icon": "",
+                "children": [
+                    {
+                        "title": "Sub Icons",
+                        "path": "sub-icons",
+                        "icon": "",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]
